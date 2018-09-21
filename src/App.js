@@ -3,7 +3,7 @@ import './App.css';
 
 import WordCard from './WordCard';
 
-const word = "Hello";
+const word = "Game";
 class App extends Component {
   render() {
     return (
