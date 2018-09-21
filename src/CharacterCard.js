@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class CharacterCard extends Component {
     constructor(props){
         super(props)
@@ -11,6 +12,12 @@ export default class CharacterCard extends Component {
         if(!this.state.active){
             this.props.activationHandler(this.props.value)
             this.setState({active: true});
+        }
+    }
+
+    ComponentDidUpdate(prevProp){
+        if(prevProp.attemp !== this.props.attemp{
+            this.setState({active:false})
         }
     }
 
