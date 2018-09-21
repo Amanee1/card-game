@@ -43,7 +43,7 @@ export default class WordCard extends Component{
                 }
 
                 <p>Round : {this.state.attemt}</p>
-                <p>{this.state.completed? "Correct" : "Keep going"}</p>
+                <p>{this.state.completed? "Correct" : ""}</p>
                 </div>
         )
     }
