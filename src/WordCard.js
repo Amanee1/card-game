@@ -43,6 +43,7 @@ export default class WordCard extends Component{
                 }
 
                 <p>Guess the word</p>
+                <p>HINT : a superhero movie</p>
                 <p>Round : {this.state.attemt}</p>
                 <p>{this.state.completed? "Correct" : ""}</p>
                 </div>
