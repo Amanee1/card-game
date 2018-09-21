@@ -8,7 +8,7 @@ const prepareStateFromWord = (given_word) => {
     return {
         word,
         chars,
-        attempt: 1,
+        attemt: 1,
         guess: [],
         complete: false
     }
@@ -43,7 +43,7 @@ export default class WordCard extends Component{
                 }
 
                 <p>Round : {this.state.attemt}</p>
-                <p>{this.state.complete? "You Win" : ""}</p>
+                <p>{this.state.completed? "Correct" : "Incorrect"}</p>
                 </div>
         )
     }
